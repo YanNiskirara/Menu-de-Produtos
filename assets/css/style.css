@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+
+:root{
+    --primary-color: rgb(6, 96, 119);
+    --primary-color-darker: rgb(5, 73, 90);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #b8c2b4;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    height: 600px;
+}
+
+.tabela-menu{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.linha-principal{
+    border-radius: 10px;
+}
+
+table td, table th{
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+th a{
+    text-decoration: none;
+    color: black;
+}
+
+table th:hover{
+    border: 2px solid #333333;
+    background-color: #00b3b3;
+}
+
+table .encerrar:hover{
+    color:red;
+}
+
+.cadastro-titulo, .titulo{
+    color: black;
+    margin-top: 5%;
+    text-align: center;
+    font-size:xx-large;
+}
+
+form p{
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:x-large;
+}
+
+form input{
+    padding: 5px;
+    font-size: large;
+    width: 60%;
+}
+
+form input:focus{
+    border: 1.5px solid #3993e7;
+}
+
+form button{
+    margin-left: 40%;
+    border-radius: 8px;
+    padding: 5px;
+    cursor:pointer;
+    background-color: var(--primary-color);
+}
+
+form button:hover{
+    background-color: #00b3b3;
+}
+
+.box-erro{
+    background-color: rgb(224, 28, 28);
+    border: 2px solid black ;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.box-produto-disponivel, .box-produto, .box-produto-vendido{
+    background-color: rgb(12, 230, 84);
+    border: 1px solid rgb(255, 255, 255) ;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
