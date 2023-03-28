@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 
-Fiz esse projetinho no meu tempo livre, mais pra exercitar uns fundamentos em JS
-O menu contém 5 opções:
+Fiz esse projetinho no meu tempo livre, mais pra exercitar uns fundamentos em JS.
+ O menu contém 5 opções:
 
 * 1 -> Cadastro :
 Lhe permite cadastrar um produto com as seguintes informações:
